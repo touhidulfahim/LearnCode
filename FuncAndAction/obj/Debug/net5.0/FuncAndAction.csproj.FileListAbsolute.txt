@@ -1,0 +1,16 @@
+C:\Users\TOUHID\source\repos\LearnCode\FuncAndAction\bin\Debug\net5.0\FuncAndAction.exe
+C:\Users\TOUHID\source\repos\LearnCode\FuncAndAction\bin\Debug\net5.0\FuncAndAction.deps.json
+C:\Users\TOUHID\source\repos\LearnCode\FuncAndAction\bin\Debug\net5.0\FuncAndAction.runtimeconfig.json
+C:\Users\TOUHID\source\repos\LearnCode\FuncAndAction\bin\Debug\net5.0\FuncAndAction.runtimeconfig.dev.json
+C:\Users\TOUHID\source\repos\LearnCode\FuncAndAction\bin\Debug\net5.0\FuncAndAction.dll
+C:\Users\TOUHID\source\repos\LearnCode\FuncAndAction\bin\Debug\net5.0\ref\FuncAndAction.dll
+C:\Users\TOUHID\source\repos\LearnCode\FuncAndAction\bin\Debug\net5.0\FuncAndAction.pdb
+C:\Users\TOUHID\source\repos\LearnCode\FuncAndAction\obj\Debug\net5.0\FuncAndAction.csproj.AssemblyReference.cache
+C:\Users\TOUHID\source\repos\LearnCode\FuncAndAction\obj\Debug\net5.0\FuncAndAction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TOUHID\source\repos\LearnCode\FuncAndAction\obj\Debug\net5.0\FuncAndAction.AssemblyInfoInputs.cache
+C:\Users\TOUHID\source\repos\LearnCode\FuncAndAction\obj\Debug\net5.0\FuncAndAction.AssemblyInfo.cs
+C:\Users\TOUHID\source\repos\LearnCode\FuncAndAction\obj\Debug\net5.0\FuncAndAction.csproj.CoreCompileInputs.cache
+C:\Users\TOUHID\source\repos\LearnCode\FuncAndAction\obj\Debug\net5.0\FuncAndAction.dll
+C:\Users\TOUHID\source\repos\LearnCode\FuncAndAction\obj\Debug\net5.0\ref\FuncAndAction.dll
+C:\Users\TOUHID\source\repos\LearnCode\FuncAndAction\obj\Debug\net5.0\FuncAndAction.pdb
+C:\Users\TOUHID\source\repos\LearnCode\FuncAndAction\obj\Debug\net5.0\FuncAndAction.genruntimeconfig.cache
