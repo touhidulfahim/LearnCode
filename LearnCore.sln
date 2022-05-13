@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuncAndAction", "FuncAndAction\FuncAndAction.csproj", "{7528E94B-641A-4BFC-ADFA-BC78F7719D1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events", "Events\Events.csproj", "{838E3288-ABB2-4729-9F87-5241660B4C64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Events", "Events\Events.csproj", "{838E3288-ABB2-4729-9F87-5241660B4C64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thread", "Thread\Thread.csproj", "{AACE5A9D-3EC4-452F-B195-3424E173A33F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thread", "Thread\Thread.csproj", "{AACE5A9D-3EC4-452F-B195-3424E173A33F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{CC77829A-C19A-452D-8BF1-1E3172DF65E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reflection", "Reflection\Reflection.csproj", "{CC77829A-C19A-452D-8BF1-1E3172DF65E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnDotNetCore", "LearnDotNetCore\LearnDotNetCore.csproj", "{137AFF68-E08C-47FC-A32D-2CF29B2EFE8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{CC77829A-C19A-452D-8BF1-1E3172DF65E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC77829A-C19A-452D-8BF1-1E3172DF65E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC77829A-C19A-452D-8BF1-1E3172DF65E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{137AFF68-E08C-47FC-A32D-2CF29B2EFE8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{137AFF68-E08C-47FC-A32D-2CF29B2EFE8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{137AFF68-E08C-47FC-A32D-2CF29B2EFE8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{137AFF68-E08C-47FC-A32D-2CF29B2EFE8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
