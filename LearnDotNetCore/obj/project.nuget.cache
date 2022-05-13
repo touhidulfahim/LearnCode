@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "VSYIUmLyNt0jPkhh9kMlDqWiyNbqyFxZ5fPUx7J70WViNnQq0IzfbS18rriy41+YrWY/V3bL+v4ZkpsP/MRZYw==",
+  "dgSpecHash": "svyRxjSQDcqLVEt/585Yg30FneXsQumKvvIjI9hczVOc0DBnVMZjujBH+yb/34id26uiI7ym/reuU250lmTwXw==",
   "success": true,
   "projectFilePath": "C:\\Users\\TOUHID\\source\\repos\\LearnCode\\LearnDotNetCore\\LearnDotNetCore.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\TOUHID\\.nuget\\packages\\autofac\\5.0.0\\autofac.5.0.0.nupkg.sha512",
+    "C:\\Users\\TOUHID\\.nuget\\packages\\autofac.extensions.dependencyinjection\\5.0.0\\autofac.extensions.dependencyinjection.5.0.0.nupkg.sha512",
     "C:\\Users\\TOUHID\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\TOUHID\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.17\\microsoft.aspnetcore.cryptography.internal.5.0.17.nupkg.sha512",
     "C:\\Users\\TOUHID\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.17\\microsoft.aspnetcore.cryptography.keyderivation.5.0.17.nupkg.sha512",

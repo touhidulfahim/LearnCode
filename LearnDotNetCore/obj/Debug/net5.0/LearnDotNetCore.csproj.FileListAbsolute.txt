@@ -400,3 +400,6 @@ C:\Users\TOUHID\source\repos\LearnCode\LearnDotNetCore\obj\Debug\net5.0\LearnDot
 C:\Users\TOUHID\source\repos\LearnCode\LearnDotNetCore\obj\Debug\net5.0\ref\LearnDotNetCore.dll
 C:\Users\TOUHID\source\repos\LearnCode\LearnDotNetCore\obj\Debug\net5.0\LearnDotNetCore.pdb
 C:\Users\TOUHID\source\repos\LearnCode\LearnDotNetCore\obj\Debug\net5.0\LearnDotNetCore.genruntimeconfig.cache
+C:\Users\TOUHID\source\repos\LearnCode\LearnDotNetCore\bin\Debug\net5.0\Autofac.dll
+C:\Users\TOUHID\source\repos\LearnCode\LearnDotNetCore\bin\Debug\net5.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\TOUHID\source\repos\LearnCode\LearnDotNetCore\obj\Debug\net5.0\LearnDotNetCore.csproj.AssemblyReference.cache

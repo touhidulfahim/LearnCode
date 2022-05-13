@@ -12,7 +12,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
 using LearnDotNetCore.Models;
+using LearnDotNetCore.Services;
 
 namespace LearnDotNetCore
 {
@@ -32,7 +35,18 @@ namespace LearnDotNetCore
         public IConfiguration Configuration { get; }
 
         public IWebHostEnvironment WebHostEnvironment { get; set; }
-        
+        public static ILifetimeScope AutofacContainer { get; set; }
+        public void ConfigureContainer(ContainerBuilder builder)
+        {
+            builder.RegisterModule(new WebModule());
+            //var connectionStringName = "DevSkillDb";
+            //var connectionString =
+            //    Configuration.GetConnectionString(connectionStringName);
+            //var migrationAssemblyName = typeof(Startup).Assembly.FullName;
+            //builder
+            //    .RegisterModule(new WebModule(connectionString,
+            //        migrationAssemblyName, Configuration, WebHostEnvironment));
+        }
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
@@ -60,9 +74,8 @@ namespace LearnDotNetCore
                 options.Cookie.IsEssential = true;
             });
 
-
-
-
+            
+            services.AddTransient<IDriverServices, LocalServices>();
 
             services.Configure<SmtpConfiguration>(Configuration.GetSection("Smtp"));
             services.AddControllersWithViews();
@@ -74,6 +87,7 @@ namespace LearnDotNetCore
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            AutofacContainer = app.ApplicationServices.GetAutofacRoot();
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
